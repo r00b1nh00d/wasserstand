@@ -5,10 +5,16 @@ Lass dich vom Calliope daran erinnern regelmäßig Wasser nach zu gießen. <br>
 (P.s. du kannst es auch bei anderen Pflanzen probieren)
 
 ## ~ @unplugged
+Um das ganze besser zu zeigen habe ich hier auch erstmal eine Vase genommen. <br>
+![vase](https://github.com/r00b1nh00d/wasserstand/blob/master/WasserFuellung.gif?gif=true)
+
+## ~ @unplugged
 Um den Wasserstand zu messen benötigst du nur zwei Kabel und einen Calliope mini. Schneide die Kabel einfach auf deine gewünschte Länge und entferne die Isolierung jeweils an beiden Enden etwas. <br>
 Von einem Kabel kommt das eine Ende  an den **(-) Pol** am Calliope das andere Ende an den Boden des Weihnachtsbaumständers (oder deiner Vase/ deines Blumentopfes). <br>
 Das andere Kabel soll an den **Pin P0** des Calliope, das andere Ende soll auf der Höhe angebracht werden, auf der der Wasserstand voll anzeigt. <br>
-Um die Kabel zu endgültig zu befestigen solltest du Klebestreifen verwenden, welche nicht einfach durch das Wasser abgelöst werden. Vorerst kannst du sie aber auch mit Tesafilm oder einem Stein fixieren. 
+Um die Kabel zu endgültig zu befestigen solltest du Klebestreifen verwenden, welche nicht einfach durch das Wasser abgelöst werden. Vorerst kannst du sie aber auch mit Tesafilm oder einem Stein fixieren. <br>
+![Kabel](https://github.com/r00b1nh00d/wasserstand/blob/master/Wasserstand1.jpg?raw=true)
+![Kabel2](https://github.com/r00b1nh00d/wasserstand/blob/master/Wasserstand2.jpg?raw=true)
 
 ## Programmierung 
 Die Programmierung ist ganz einfach. In einer ``||basic.dauerhaft||``- Schleife soll mittels ``||logic.wenn-dann-ansonsten||`` - Bedingung geprüft werden ob der ``||inputs: Pin P0||`` ``||logic. nicht||`` ``||inputs: gedrückt|`` ist. <br>
